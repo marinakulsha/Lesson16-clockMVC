@@ -1,0 +1,68 @@
+body {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: rgb(250, 243, 215);
+}
+
+#sectionDOM,
+#sectionSVG,
+#sectionCanvas {
+    flex: 0 1 1300px;
+    height: 900px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.panel {
+    /* margin: 10px; */
+    margin-bottom: 30px;
+}
+
+.stopBtn {
+    margin-left: 15px;
+    width: 70px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.timeZone {
+    margin-left: 10px;
+}
+
+.startBtn {
+    width: 70px;
+    height: 25px;
+    cursor: pointer;
+}
+
+text {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-size: 14px;
+    margin: 0;
+}
+
+.maintitle {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#clock1,
+#clock2,
+#clock3,
+#clock4,
+#clock5,
+#clock6 {
+    width: 380px;
+}
+
+#clock5,
+#clock6 {
+    position: relative;
+}
